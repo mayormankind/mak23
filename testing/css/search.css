@@ -1,0 +1,16 @@
+.body{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* .info {
+    box-shadow: 5px 5px 5px 3px white;
+
+} */

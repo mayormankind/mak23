@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+
+.father {
+  width: 350px;
+  height: 500px;
+  background: whitesmoke;
+  -webkit-box-shadow: 0px 2px 10px grey;
+          box-shadow: 0px 2px 10px grey;
+  -webkit-animation: fadein 1s ease-in;
+          animation: fadein 1s ease-in;
+  border-bottom: 5px solid black;
+}
+
+.father header {
+  margin-top: 50px;
+  height: 50px;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.father form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7px 30px;
+}
+
+.father form input {
+  margin: 7px 0;
+  height: 50px;
+  padding: 4px 45px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.father form button {
+  height: 40px;
+  margin: 50px 0;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background: coral;
+}
+
+.father footer {
+  text-align: center;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+i {
+  position: relative;
+  top: 40px;
+  margin-left: 9px;
+}
+/*# sourceMappingURL=adminlogin.css.map */

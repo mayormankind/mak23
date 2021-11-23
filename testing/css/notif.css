@@ -1,0 +1,74 @@
+:root {
+    --orange: #F25D29;
+    --bg: rgb(215, 224, 233);
+    --black: rgb(59, 59, 59);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.notif{
+    text-align: center;
+}
+.house{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    border-radius: 6px;
+    background-color: var(--bg);
+    padding: 7px 25px;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    /* background: transparent; */
+    width: 100%;
+    height: 30px;
+    margin-bottom: 12px;
+}
+input:focus{
+    border-bottom: 1px solid var(--orange);
+}
+.but{
+    border: 1px solid black;
+    width: 40%;
+    height: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 13px;
+    margin-left: 17px;
+}
+.but:focus{
+    background: #000;
+    color: white;
+}
+.but:hover{
+    background: #000;
+    color: white;
+}
+select{
+    width: 100%;
+    height: 30px;
+    padding: 7px 15px;
+    margin-bottom: 12px;
+    outline: none;
+}
+select:focus{
+    border: 1px solid var(--orange);
+}
+textarea{
+    width: 97%;
+    padding: 7px 15px;
+    outline: none;
+}
+textarea:focus{
+    border: 1px solid var(--orange);
+}
